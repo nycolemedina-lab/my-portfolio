@@ -3,7 +3,7 @@
    ========================================================================== */
 :root {
   /* Default Palette (Dark Retro Pixel Theme) */
-  --bg-color: #0191b4;          /* Main Teal Blue */
+  --bg-color: #4169e1;          /* Main Teal Blue */
   --card-bg: #35bbca;           /* Light Teal/Cyan for Cards */
   --card-border: #003a48;       /* Dark Outline for 3D Pixel Effect */
   
@@ -29,7 +29,7 @@
   --card-border: #0191b4;
   
   --text-main: #003a48;
-  --text-heading: #0191b4;
+  --text-heading: #4169e1;
   --text-muted: #2c3e50;
   
   --accent-color: #fe7a15;
