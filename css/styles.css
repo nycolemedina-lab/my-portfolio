@@ -24,9 +24,9 @@
 
 /* Light Theme Variables */
 [data-theme="light"] {
-  --bg-color: #e0f7fa;          /* Crisp Light Cyan */
+  --bg-color: #4169e1;          /* Crisp Light Cyan */
   --card-bg: #ffffff;           /* Clean White Cards */
-  --card-border: #0191b4;
+  --card-border: #4169e1;
   
   --text-main: #003a48;
   --text-heading: #4169e1;
