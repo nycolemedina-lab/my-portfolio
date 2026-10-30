@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nycole Medina | Software Engineer & Game Developer</title>
+    
+    <!-- Google Fonts for Pixel Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    
+    <!-- Relative CSS Link for GitHub Pages -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-theme="dark">
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Main Navigation">
+            <a href="#hero" class="logo-link">
+                <span class="logo-text">NM_</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="pixel-btn theme-btn" aria-label="Toggle light and dark mode">
+                <span class="theme-icon" aria-hidden="true">🌙</span>
+                <span class="theme-text">Theme</span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <p class="greeting-subtitle">Hello, Welcome to my page.</p>
+                <h1 class="hero-title">Nycole Medina</h1>
+                <p class="hero-role">Software Engineer & Game Developer</p>
+                <p class="hero-intro">
+                    Here you will find a gallery of my professional projects and personal projects.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="pixel-btn primary-btn">View Projects</a>
+                    <a href="#contact" class="pixel-btn secondary-btn">Get In Touch</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>01.</span> About Me</h2>
+                <div class="pixel-card about-card">
+                    <p>
+                        I am an artist looking to express my creativity through technology. My goals are to focus on front-end design and game development, blending visual art with clean, reliable code.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>02.</span> Skills</h2>
+                <div class="skills-grid">
+                    <article class="pixel-card skill-card">
+                        <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <h3 class="skill-name">C Programming</h3>
+                        <p class="skill-desc">Low-level system software development, memory management, and algorithm implementation.</p>
+                    </article>
+
+                    <article class="pixel-card skill-card">
+                        <div class="skill-icon" aria-hidden="true">🐍</div>
+                        <h3 class="skill-name">Python</h3>
+                        <p class="skill-desc">Scripting, backend logic, data structures, and rapid prototyping.</p>
+                    </article>
+
+                    <article class="pixel-card skill-card">
+                        <div class="skill-icon" aria-hidden="true">🎮</div>
+                        <h3 class="skill-name">Godot Engine</h3>
+                        <p class="skill-desc">2D and 3D game development, scene architecture, and GDScript gameplay logic.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>03.</span> Featured Projects</h2>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="pixel-card project-card">
+                        <div class="project-header">
+                            <span class="project-tag">Systems Code</span>
+                            <span class="project-badge">C Language</span>
+                        </div>
+                        <h3 class="project-title">Custom Printf Module</h3>
+                        <p class="project-description">
+                            A custom re-implementation of the standard C <code>printf</code> function handling specifiers, flags, field widths, precision, and custom buffer management.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>C</li>
+                            <li>GCC</li>
+                            <li>Make</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="pixel-btn card-btn" aria-label="View Printf project source code">View Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="pixel-card project-card">
+                        <div class="project-header">
+                            <span class="project-tag">UNIX / Systems</span>
+                            <span class="project-badge">C Language</span>
+                        </div>
+                        <h3 class="project-title">Simple Shell</h3>
+                        <p class="project-description">
+                            A command-line interpreter that reads, parses, and executes system commands with process creation, built-in commands, and environment path handling.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>C</li>
+                            <li>POSIX API</li>
+                            <li>UNIX</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="pixel-btn card-btn" aria-label="View Simple Shell project source code">View Code</a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="pixel-card project-card">
+                        <div class="project-header">
+                            <span class="project-tag">Game Dev</span>
+                            <span class="project-badge">Godot</span>
+                        </div>
+                        <h3 class="project-title">Pixel Art Game</h3>
+                        <p class="project-description">
+                            An interactive game built in the Godot engine featuring custom retro pixel graphics, physics mechanics, collision detection, and animated character states.
+                        </p>
+                        <ul class="project-tech-list">
+                            <li>Godot Engine</li>
+                            <li>GDScript</li>
+                            <li>Pixel Art</li>
+                        </ul>
+                        <div class="project-actions">
+                            <a href="#" class="pixel-btn card-btn" aria-label="Play or preview Godot game project">Play Demo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <h2 class="section-title"><span>04.</span> Get In Touch</h2>
+                <div class="pixel-card contact-card">
+                    <p class="contact-intro">
+                        Whether you are an employer looking for a developer or a private client with a creative idea, feel free to reach out!
+                    </p>
+                    <div class="email-box">
+                        <a href="mailto:nycole.medina@gmail.com" class="email-link">nycole.medina@gmail.com</a>
+                        <button id="copy-email-btn" class="pixel-btn copy-btn" aria-label="Copy email address to clipboard">
+                            Copy Email
+                        </button>
+                    </div>
+                    <p id="copy-feedback" class="copy-feedback" aria-live="polite"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; Nycole Medina. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <!-- Relative JS Link for GitHub Pages -->
+    <script src="js/script.js"></script>
+</body>
+</html>
